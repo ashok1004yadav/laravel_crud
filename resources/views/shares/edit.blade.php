@@ -36,6 +36,7 @@
           <input type="text" class="form-control" name="share_qty" value={{ $share->share_qty }} />
         </div>
         <button type="submit" class="btn btn-primary">Update</button>
+        <a href="{{ route('shares.index')}}" class="btn btn-primary">Back</a>
       </form>
   </div>
 </div>

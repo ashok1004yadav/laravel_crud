@@ -35,6 +35,7 @@
               <input type="text" class="form-control" name="share_qty"/>
           </div>
           <button type="submit" class="btn btn-primary">Add</button>
+        <a href="{{ route('shares.index')}}" class="btn btn-primary">Back</a>
       </form>
   </div>
 </div>
